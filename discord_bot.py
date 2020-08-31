@@ -1,7 +1,7 @@
 import asyncio
 import discord
 from discord.ext.commands import Bot
-import scraper
+import web_scrape
 import config
 
 
@@ -26,7 +26,7 @@ async def tweet_monitor():
     prev = ''
     await client.wait_until_ready()
     while not client.is_closed:
-        new = scraper.latest_tweet()
+        new = web_scrape.latest_tweet()
         if new != prev:
             await client.send_message(channel, new)
             prev = new

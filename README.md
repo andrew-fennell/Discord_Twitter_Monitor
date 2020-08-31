@@ -2,6 +2,12 @@
 
 Discord Twitter Monitor, Python discord bot
 
+
+
+As of JULY 16, 2020, this project is not functioning properly. Twitter released an official API. This project will be switched to using the official API when I have some free time to work on this.
+
+
+
 Monitors a single Twitter profile and when they update their status, it sends a message in a specific Discord channel with the link to the new tweet.
 
 This monitor bot is VERY basic in its abilities. If you have suggestions for features for the bot in later versions, please let me know!
