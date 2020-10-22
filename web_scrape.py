@@ -21,8 +21,8 @@ def twitter_login(s):
     user_box = s.find_element_by_xpath('/html/body/div/div/div/div[2]/main/div/div/div[1]/form/div/div[1]/label/div/div[2]/div/input')
     pass_box = s.find_element_by_xpath('/html/body/div/div/div/div[2]/main/div/div/div[1]/form/div/div[2]/label/div/div[2]/div/input')
 
-    user_box.send_keys("twitter_user")
-    pass_box.send_keys("twitter_pass$")
+    user_box.send_keys(twitter_user)
+    pass_box.send_keys(twitter_pass)
 
     btn = s.find_element_by_xpath('/html/body/div/div/div/div[2]/main/div/div/div[1]/form/div/div[3]/div')
     btn.click()
