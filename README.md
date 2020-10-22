@@ -2,15 +2,13 @@
 
 Discord Twitter Monitor, Python discord bot
 
-
-
-As of JULY 16, 2020, this project is not functioning properly. Twitter released an official API. This project will be switched to using the official API when I have some free time to work on this.
-
-
+# Usage
 
 Monitors a single Twitter profile and when they update their status, it sends a message in a specific Discord channel with the link to the new tweet.
 
 This monitor bot is VERY basic in its abilities. If you have suggestions for features for the bot in later versions, please let me know!
+
+# Setup
 
 The config file will ask for a few things before the bot will function.
 Here is how to create a server, application, and bot:
@@ -34,4 +32,15 @@ This can be found in applications, then bot.
 6. Customize the interval that the bot will scan twitter (interval in seconds)
 
 7. Customize your bot's command prefixes.
-Though there are currently no commands, I am planning on adding several.
+
+8. AFTER YOU COMPLETE THE CONFIG, Run PCKG.BAT.
+
+9. You can run the .exe file located in the /dist folder to start the bot. 
+Keep it running while you want your bot to be online.
+
+# Commands
+
+Type !scrape <profile> in the channel you want the bot to send new posts to. 
+
+Example: If you want to scrape https://twitter.com/ElonMusk
+		 You need to type !scrape ElonMusk
