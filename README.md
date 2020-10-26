@@ -44,3 +44,7 @@ Type !scrape <profile> in the channel you want the bot to send new posts to.
 
 Example: If you want to scrape https://twitter.com/ElonMusk
 		 You need to type !scrape ElonMusk
+
+# Disclaimer / Request
+
+I ask that, if you use this automated twitter to discord application, use it responsibly. Keep the delay interval in config.py at a number that is reasonable and will not have any harmful effects. I am not responsible for your use of this application.
